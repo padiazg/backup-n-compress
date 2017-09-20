@@ -1,5 +1,5 @@
 # node.js Backup & Compress
-Simple backup and compress project intended to compress every subfolder in a specified folder in a separate zip file.
+Simple backup and compress project intended to, given a folder, compress every subfolder in a separate zip file.
 
 This project was born when Google released "Backup and Sync" and give us the possibility to have sync folders for each machine.
 
