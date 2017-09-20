@@ -1,0 +1,19 @@
+{
+    "exclude": [
+        "**/node_modules/**",
+        "./node_modules/**",
+        "**/*.exe",
+        "**/*.zip",
+        "**/*.rar"
+    ],
+    "folders" : [
+        {
+            "folder": "C:/Users/pato/workspace/nodejs/",
+            "outputFolder": "C:/Users/pato/workspace/backup/nodejs/"
+        },
+        {
+            "folder": "C:/Users/pato/workspace/vision/",
+            "outputFolder": "C:/Users/pato/workspace/backup/vision/"
+        }
+    ]
+}
