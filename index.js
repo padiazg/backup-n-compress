@@ -2,7 +2,7 @@ const { compressFolder } = require('./compress-unit');
 const config = require('./tasks.json');
 
 const backup = async () => {
-    for (item of config.folders) {
+    for (item of config.tasks) {
         if (!item.folder)
             item.folder = process.cwd();
 

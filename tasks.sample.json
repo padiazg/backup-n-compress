@@ -1,0 +1,30 @@
+{
+    "exclude": [
+        "**/node_modules/**",
+        "./node_modules/**",
+        "**/*.exe",
+        "**/*.zip",
+        "**/*.rar"
+    ],
+    "folders" : [
+        {
+            "folder": "C:/Users/pato/workspace/nodejs/",
+            "outputFolder": "C:/Users/pato/workspace/backup/nodejs/"
+        },
+        {
+            "folder": "C:/Users/pato/workspace/electron/",
+            "outputFolder": "C:/Users/pato/workspace/backup/electron/"
+        },
+        {
+            "folder": "C:/Users/pato/workspace/docker/",
+            "outputFolder": "C:/Users/pato/workspace/backup/docker/",
+            "exclude": [
+                "**/*.exe",
+                "**/*.zip",
+                "**/*.rar",
+                "**/*.tar",
+                "**/*.bin"
+            ]
+        }
+    ]
+}
